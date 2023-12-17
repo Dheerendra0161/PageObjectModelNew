@@ -1,0 +1,25 @@
+{
+
+	"HomePage":	{
+	"My Account Menu"	:  "Link;My Account",
+	"Login menu Option" :	"Link;Login",
+	"Register Menu Option":"Link;Register"
+	}
+	
+	"LoginPage":{
+	
+	"Email_TextBox"		:"ID;input-email"
+	"PasswordBox"		:"ID;input-password"
+	"LoginButton" 		:"
+
+
+
+
+
+
+
+
+
+
+
+}
