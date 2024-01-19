@@ -19,5 +19,24 @@ public class Retry implements IRetryAnalyzer {
 
 	}
 	
+	private String getResultStatusName(int status) {
+        switch (status) {
+            case ITestResult.SUCCESS:
+                return "SUCCESS";
+            case ITestResult.FAILURE:
+                return "FAILURE";
+            case ITestResult.SKIP:
+                return "SKIP";
+            default:
+                return "UNKNOWN";
+        }
+    }
 	
+	public class LoginTest {
+
+//	    @Test(retryAnalyzer = RetryAnalyzer.class)
+//	    public void loginTest() {
+//	        // Your login test logic goes here
+	        // If the test fails, the RetryAnalyzer will decide whether to retry based on the configured MAX_RETRY_COUNT
+	    }
 }

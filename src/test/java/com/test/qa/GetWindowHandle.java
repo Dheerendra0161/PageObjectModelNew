@@ -66,7 +66,7 @@ public class GetWindowHandle {
     Actions actions = new Actions(driver);
     for (int i =0;i<5;i++) {
     actions.keyDown(org.openqa.selenium.Keys.CONTROL)  // Press the control key
-           .click(elementToControlClick)              // Perform the click action
+           .click(elementToControlClick)               // Perform the click action
            .keyUp(org.openqa.selenium.Keys.CONTROL)    // Release the control key
            .perform();
     }

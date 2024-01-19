@@ -30,7 +30,6 @@ public class Invocation {
 		
 		//return new Object[][] { { "DK", "123" }, { "VK", "132" }, { "SK", "321" } };
 		
-		
 		Object[][] data= {{"Dheerendra",123,"Graduate"},{"Vikas",321,"PG"},{"Vivek",213,"Diploma"}};
 		return data;
 				
