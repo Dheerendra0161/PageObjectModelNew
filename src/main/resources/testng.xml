@@ -9,25 +9,29 @@
   </test> 
   
   -->
-  
-  
-   <test name="ChromeTest">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.test.qa.ParallelBrowserTest"/>
-        </classes>
-    </test>
-    <test name="FirefoxTest">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.test.qa.ParallelBrowserTest"/>
-        </classes>
-    </test>
-    <test name="IETest">
-        <parameter name="browser" value="ie"/>
-        <classes>
-            <class name="com.test.qa.ParallelBrowserTest"/>
-        </classes>
-    </test>
-</suite> <!-- Suite -->
+
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.qa.ParallelBrowserTest" />
+		</classes>
+	</test>
+	
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.test.qa.ParallelBrowserTest" />
+		</classes>
+	</test>
+	
+	<test name="IETest">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.test.qa.ParallelBrowserTest" />
+		</classes>
+	</test>
+	
+</suite> <!--
+Suite -->
 

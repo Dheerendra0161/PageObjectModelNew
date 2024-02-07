@@ -1,4 +1,8 @@
 /target/
 /test-output/
+.project
+.settings/
+.classpath
 /user.dir/
 /LocalFiles/
+Screenshots/
