@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.toolsqa.pages.SoftWareHomePage;
 import com.toolsqa.pages.SoftWareTesting_TutorialsPage;
 
-import baseComponent.Base;
+import UtilsFile.Base;
 
 public class SoftWareTesting_Tutorials extends Base {
 	WebDriver driver;

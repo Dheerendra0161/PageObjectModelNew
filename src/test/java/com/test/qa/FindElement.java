@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import baseComponent.Base;
+import UtilsFile.Base;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FindElement extends Base {
